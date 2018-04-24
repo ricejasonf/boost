@@ -21,7 +21,7 @@ endif()
 
 find_package(PythonLibs)
 if(NOT PythonLibs_FOUND)
-    list(APPEND EXCLUDE_LIBS python)
+    list(APPEND EXCLUDE_LIBS python graph log)
 endif()
 
 find_package(MPI)
